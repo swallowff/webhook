@@ -41,6 +41,7 @@ public class WebHookController {
             pro.destroy();
         } catch (IOException ex) {
         }
+        System.out.println("push success!!!");
         return returnString;
     }
 
